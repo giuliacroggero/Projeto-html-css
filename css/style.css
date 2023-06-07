@@ -1,0 +1,556 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+.buscar{
+    padding-right: 2rem;
+}
+
+.login{
+    padding-left: 2rem;
+}
+
+.happindex{
+    font-size: 2.4rem;
+    padding: 2rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+h2{
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 1rem;
+}
+
+h4{
+    font-size: 1.2rem;
+
+}
+
+/* Primeira Tela */
+
+.logotarefa{
+    margin: auto;
+    display: block;
+    padding: 2rem;
+}
+
+.conjunto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.datas,.amanha,.breve{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.8rem;
+    
+}
+
+.datas{
+    border-top: 0.05rem solid #A695A1;;
+    font-size: 1.6rem;
+}
+
+.tarefa{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.borda{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
+    border: 0.05rem solid black;
+    height: 6rem;
+    width: 28rem;
+    border-radius: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+
+
+
+.hifen{
+    margin-right: 2rem;
+}
+
+.logos{
+    display:flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.logo1,.logo2,.add,.logo3,.logo4{
+    display:flex;
+    flex-direction: row;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.headerindex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A34186;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    z-index: 10;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #A695A1;
+    border-top: 0.05rem solid #A695A1; 
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    position: fixed;
+    bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 10%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main{
+
+    flex-grow: 1;
+    padding-top: 8rem;
+    overflow-y: auto;
+    margin-bottom: 78.5px ;
+
+}
+
+
+
+
+
+
+.headernovatarefa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    background-color: #A34186;
+}
+
+.happnovatarefa{
+    font-size: 2.4rem;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.77rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.seta{
+    padding-left: 2rem;
+}
+
+.textonovatarefa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.mainnovatarefa{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.salvar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 0.05rem solid black;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 2rem;
+}
+
+.corbox{
+    display:flex;
+    flex-direction: row;
+    padding-top: 0.4rem;
+}
+
+.corbox1{
+    display: flex;
+    flex-direction: row;
+}
+
+.corbox2{
+    display: flex;
+    flex-direction: row;
+}
+
+.cores{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.areas{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.4rem;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.4rem;
+}
+
+.areabox{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4rem;
+}
+
+.prazobox{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.6rem;
+    padding-bottom: 6rem;
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    border: 0.05rem solid black;
+    border-radius: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    flex-direction: column;
+    margin-bottom: 14rem;
+}
+
+.rotinacoluna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 4rem;
+    
+}
+
+.texto1, .texto2, .texto3, .texto4{
+    padding: 2rem;
+    
+}
+
+.fundologin{
+    background-color: #EEA7D9;
+}
+
+.mainlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 9rem;    
+}
+
+
+
+.titulolog{
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+
+.fotologin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    padding-top: 4rem;  
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+
+.menulogin1{
+    display: flex;
+    justify-content: right;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+
+.centrometas{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.progresso{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.planejamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.1rem;
+}
+
+.bordaplanejamento{
+    display: flex; 
+    justify-content: left; 
+    align-items: center;
+    text-decoration: none;
+    border: 0.05rem solid black;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-family: 'Open Sans', sans-serif
+
+}
+
+.hifen{
+    padding-top: 1rem;
+}
+
+.concluidos{
+    background-color: #A695A1;
+    border: 6rem;
+    border-radius: 1rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: row;
+    width: 40rem;
+    height: 15rem;
+}
+
+.concluidos1, .concluidos2{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 260%;
+}
+
+.mainjourney{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.jornada, .recentes{
+    padding: 2rem;
+}
+
+.grafico,.dia,.plot{
+    padding: 2rem;
+}
+
+.plot{
+    margin-top: 2rem;
+    background-color: #A695A1;
+    margin-bottom: 16rem;
+}
+
+.comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+
+
+.item1{
+    width: 10%;
+    height: 10%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.item2{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.item3{
+    background-color: #EEA7D9;
+    border: 0.1rem;
+    border-radius: 1rem;
+    width: 24rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.4rem;
+}
+
+.fundoadd{
+    background-color: #EEA7D9;
+}
+
+.mainaddmeta{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloaddp, .textaddp, .buttonaddp{
+    padding: 2rem;
+}
+
+.tituloaddp{
+    margin-bottom: 5rem;
+}
+
+.textaddp{
+    margin-bottom: 6rem;
+    width: 40rem;
+    height: 3rem;
+}
+
+.textaddp, .buttonaddp{
+    border: 0.05rem solid black;
+    border-radius: 0.5rem;
+    
+}
+
+.buttonaddp{
+    background-color: #A695A1;
+}
+
+.selecao{
+    background-color: #EEA7D9;
+    opacity: 80%;
+    border-radius: 0.3rem;
+    
+}
+
+.textinho{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.fontlogin{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.headeraddplanejamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    background-color: #EEA7D9;
+}
+
+.areameta{
+    justify-content: flex-start;
+}
